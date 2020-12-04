@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './css/font-awesome.min.css';
+import './css/flaticon.css';
+import './css/themify-icons.css';
+import './fonts/futura.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
