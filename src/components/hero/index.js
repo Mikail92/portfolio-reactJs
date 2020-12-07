@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-md-8 slide-caption">
-                            <h2 className="wow fadeInLeftSlow" data-wow-delay="0.5s">I’m <span>John</span> Smith</h2>
+                            <h2 className="wow fadeInLeftSlow" data-wow-delay="0.5s">I’m <span>Mihai</span> Hutan</h2>
                             <p className="wow fadeInUp" data-wow-delay="0.8s">Freelance UI/UX Designer</p>
                             <div className="bg-social wow fadeInUp" data-wow-delay="1.0s">
                                 <ul>

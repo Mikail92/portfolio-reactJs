@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header';
 import Preloader from './components/preloader';
 import Hero from './components/hero';
+import PortfolioItem from './components/portfolio-item';
 
 
 function App() {
@@ -17,6 +18,19 @@ function App() {
         {/* start Hero Section */}
         <Hero />
         {/* end Hero Section */}
+        {/* start About Section */}
+
+        {/* end About Section */}
+
+        {/* start Portfolio Section */}
+        <PortfolioItem 
+          title="Minimalism"
+          subtitle="Illustration . Art Direction"
+          imgUrl="images/protfolio/img-1.jpg"
+          url="http://google.com"
+          alt="Illustration"
+        />
+        {/* end Portfolio Section */}
     </div>
   );
 }
