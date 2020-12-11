@@ -3,6 +3,7 @@ import Header from '../../components/header';
 import Preloader from '../../components/preloader';
 import Hero from '../../components/hero';
 import PortfolioItem from '../../components/portfolio-item';
+import About from '../../components/about-us'
 
 const Homepage = () => {
     return (
@@ -11,7 +12,7 @@ const Homepage = () => {
           <Header />
           <Hero />
           {/* start About Section */}
-  
+          <About />
           {/* end About Section */}
           <PortfolioItem 
             title="Minimalism"
